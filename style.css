@@ -69,9 +69,9 @@ body {
 .text {
   position: absolute;
   font-family: "Snell Roundhand", cursive;
-  font-size: 28px;
-  text-align: center;
-  line-height: 25px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
   top: 25px;
   left: 45px;
   color: #003049;
