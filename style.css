@@ -31,11 +31,11 @@ body {
   position: relative;
   width: 300px;
   height: 200px;
-  background-color: #f08080;
+  background-color: #ff88e0;
 }
 
 .envelope:before {
-  background-color: #f08080;
+  background-color:  #c97bbe;
   content: "";
   position: absolute;
   width: 212px;
@@ -48,7 +48,7 @@ body {
 
 .card {
   position: absolute;
-  background-color: #eae2b7;
+  background-color: #ca8bca8c;
   width: 270px;
   height: 170px;
   top: 5px;
@@ -59,7 +59,7 @@ body {
 .card:before {
   content: "";
   position: absolute;
-  border: 3px solid #003049;
+  border: 3px solid #fc8ef3;
   width: 240px;
   height: 140px;
   left: 12px;
@@ -73,12 +73,12 @@ body {
   text-align: left;
   line-height: 20px;
   top: 25px;
-  left: 45px;
-  color: #003049;
+  left: 16px;
+  color: #063a57;
 }
 
 .heart {
-  background-color: #d62828;
+  background-color: rgb(252, 126, 241);
   display: inline-block;
   height: 30px;
   margin: 0 10px;
@@ -92,7 +92,7 @@ body {
 .heart:before,
 .heart:after {
   content: "";
-  background-color: #d62828;
+  background-color: #fb80ff;
   border-radius: 50%;
   height: 30px;
   position: absolute;
@@ -118,7 +118,7 @@ body {
 .three,
 .four,
 .five {
-  background-color: red;
+  background-color: rgb(250, 156, 242);
   display: inline-block;
   height: 10px;
   margin: 0 10px;
@@ -139,7 +139,7 @@ body {
 .five:before,
 .five:after {
   content: "";
-  background-color: red;
+  background-color: rgb(250, 156, 242);
   border-radius: 50%;
   height: 10px;
   position: absolute;
@@ -202,7 +202,7 @@ body {
 
 .front {
   position: absolute;
-  border-right: 180px solid #f4978e;
+  border-right: 180px solid #be6fbe;
   border-top: 95px solid transparent;
   border-bottom: 100px solid transparent;
   left: 120px;
@@ -215,7 +215,7 @@ body {
 .front:before {
   position: absolute;
   content: "";
-  border-left: 300px solid #f8ad9d;
+  border-left: 300px solid #b36eaf;
   border-top: 195px solid transparent;
   left: -120px;
   top: -95px;
@@ -243,6 +243,9 @@ body {
   50% {
       transform: scaleX(0.85);
   }
+}
+.rose{
+
 }
   
   
